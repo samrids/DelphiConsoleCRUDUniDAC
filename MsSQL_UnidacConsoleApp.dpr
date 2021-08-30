@@ -3,9 +3,6 @@ program MsSQL_UnidacConsoleApp;
 {
   Delphi : Building a Windows CRUD Console Application with UniDAC + MSSQL
 
-  This "CRUD"* console application demonstrates the essential steps for creating
-  a Windows application in Delphi.
-
   Remark CRUD*
     C = Create
     R = Read
@@ -259,7 +256,6 @@ procedure Menu;
           end;
         3:
           begin
-            Write('Please enter Lastname: ');
             repeat
               Write('Please enter Last name: ');
               Readln(LName);
@@ -317,6 +313,7 @@ procedure Menu;
         1:
           begin
             SelectedPerson;
+            UpdateMod;
             UpdateToDBServer;
           end;
         2, 3, 4:
