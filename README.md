@@ -1,5 +1,5 @@
 # Delphi Console CRUD UniDAC + MSSQL
 Delphi : Building a Windows CRUD Console Application with UniDAC + MSSQL
 
-ScreenShort:
+Screenshot:
 https://github.com/samrids/DelphiConsoleCRUDUniDAC/blob/main/ScreenShort/m0eMzwBH9k.png
